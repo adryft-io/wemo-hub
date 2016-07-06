@@ -1,0 +1,101 @@
+body{
+  background-color: #f4f3ef;
+  color: white;
+  font-size: 18px;
+  background: linear-gradient(89deg, #38dfca, #388ddf, #9c38df, #df386a, #ecb036);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 100s ease infinite;
+  -moz-animation: AnimationName 100s ease infinite;
+  animation: AnimationName 100s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 84%}
+    50%{background-position:100% 17%}
+    100%{background-position:0% 84%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 84%}
+    50%{background-position:100% 17%}
+    100%{background-position:0% 84%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 84%}
+    50%{background-position:100% 17%}
+    100%{background-position:0% 84%}
+}
+/* cursor animation homepage */
+.cursor {
+  animation: Blink 1s ease-in 0s infinite;
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+  /*position: absolute;
+  left: 107px;
+  top: -23px;*/
+}
+
+@keyframes Blink {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+.main {
+  position: center;
+  margin-top: 100px;
+}
+
+/* Parents of the world */
+.content * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Links */
+.activelink {
+  font-weight: bold;
+  border-bottom: 1px solid white;
+  padding: 10px;
+
+}
+
+
+button, .button {
+  height: 20px;
+  border: none;
+  color: white;
+}
+
+.button:hover {
+  color:white;
+  opacity: 0.5;
+}
+button:hover {
+  color:white;
+  opacity:0.5;
+}
+
+
+/* offset  and margins and bold */
+.bold {
+  font-weight: bold;
+}
+.offset {
+  padding-left: 100px;
+}
+
+.space-top {
+  margin-top: 70px;
+}
+
+h3 {
+  letter-spacing: 1px;
+}
+
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
